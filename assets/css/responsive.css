@@ -1,0 +1,68 @@
+/* Tablet Device Breclkpoint */
+@media screen and (max-width: 992px) {
+    /* nav Section */
+    nav{
+        display: none;
+       }
+       .navBar{
+        display: inline-block;
+       }
+        .menu_bar{
+            display: inline-block; 
+            background-color: red;
+        }
+        /* Banner section */
+        .inner_banner{
+            flex-direction: column-reverse;
+        }
+        .banner-left_content,.banner-right_content{
+            flex-basis: 100%;
+            text-align: center;
+            flex-direction: column;
+        }
+        .banner-left_content .title{
+            font-size: 40px;
+        }
+        /* Company Section */
+        .inner-company{
+           flex-direction: column;
+           
+        }
+        .inner-company .company {
+            flex-basis: 30%;
+            margin: 20px 0px;
+        }
+        .inner_feature_app_content{
+            flex-direction: column;
+        }
+        .inner_Smart_jackpot{
+            flex-direction: column;
+           }
+           .jackpot_column{
+            display: none;
+           }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-left_content img{
+        width: 300px;
+    }
+    .inner-company .company {
+        flex-basis: 50%;
+        margin: 20px 0px;
+    }
+   .inner_Smart_jackpot{
+    flex-direction: column;
+   }
+   .jackpot_column{
+    display: none;
+   }
+   .Smart_jackpot_left h1{
+    font-size: 30px;
+   }
+
+   .inner_payout{
+    flex-direction: column;
+   }
+     
+}
