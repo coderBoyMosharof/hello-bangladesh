@@ -16,7 +16,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
@@ -49,7 +51,12 @@ button {
 }
 
 /* Header SEction CSS Start */
-/* #header{} */
+#header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
 .inner_header {
     display: flex;
     justify-content: space-between;
@@ -194,6 +201,7 @@ button {
 
 .banner_right_content img {
     width: 100%;
+    height: 100%;
 }
 
 
@@ -254,7 +262,7 @@ button {
     line-height: 46px;
     color: #242f51;
     font-weight: 600;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .feature_app_right_content .feature-desc {
